@@ -147,3 +147,14 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Swagger gerado
+/swagger.json
+
+# Claude Code
+.claude/settings.local.json
+.claude/hooks/node_modules/
+
+# Claude Code kit (cache/dependências locais dos hooks)
+/.claude/tsc-cache/
+/.claude/hooks/node_modules/
